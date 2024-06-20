@@ -1,0 +1,482 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FD7A15DD2C23BFF40039B023 /* PasswordVerificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7A15DC2C23BFF40039B023 /* PasswordVerificationView.swift */; };
+		FD7A15DF2C23C0C40039B023 /* CongratsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7A15DE2C23C0C40039B023 /* CongratsView.swift */; };
+		FD84F9472C1746EA00FD47F7 /* PasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD84F9462C1746EA00FD47F7 /* PasswordView.swift */; };
+		FD84F9492C1746EA00FD47F7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD84F9482C1746EA00FD47F7 /* ContentView.swift */; };
+		FD84F94B2C1746EB00FD47F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD84F94A2C1746EB00FD47F7 /* Assets.xcassets */; };
+		FD84F94E2C1746EB00FD47F7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD84F94D2C1746EB00FD47F7 /* Preview Assets.xcassets */; };
+		FD84F9572C1748A100FD47F7 /* ValidationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD84F9562C1748A100FD47F7 /* ValidationController.swift */; };
+		FD84F95F2C1748BB00FD47F7 /* PasswordVerificationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD84F95E2C1748BB00FD47F7 /* PasswordVerificationTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FD84F9602C1748BB00FD47F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD84F93B2C1746EA00FD47F7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD84F9422C1746EA00FD47F7;
+			remoteInfo = PasswordVerification;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FD7A15DC2C23BFF40039B023 /* PasswordVerificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordVerificationView.swift; sourceTree = "<group>"; };
+		FD7A15DE2C23C0C40039B023 /* CongratsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CongratsView.swift; sourceTree = "<group>"; };
+		FD84F9432C1746EA00FD47F7 /* PasswordVerification.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PasswordVerification.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD84F9462C1746EA00FD47F7 /* PasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordView.swift; sourceTree = "<group>"; };
+		FD84F9482C1746EA00FD47F7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FD84F94A2C1746EB00FD47F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FD84F94D2C1746EB00FD47F7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FD84F9562C1748A100FD47F7 /* ValidationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidationController.swift; sourceTree = "<group>"; };
+		FD84F95C2C1748BB00FD47F7 /* PasswordVerificationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PasswordVerificationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD84F95E2C1748BB00FD47F7 /* PasswordVerificationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordVerificationTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FD84F9402C1746EA00FD47F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD84F9592C1748BB00FD47F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FD84F93A2C1746EA00FD47F7 = {
+			isa = PBXGroup;
+			children = (
+				FD84F9452C1746EA00FD47F7 /* PasswordVerification */,
+				FD84F95D2C1748BB00FD47F7 /* PasswordVerificationTests */,
+				FD84F9442C1746EA00FD47F7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FD84F9442C1746EA00FD47F7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FD84F9432C1746EA00FD47F7 /* PasswordVerification.app */,
+				FD84F95C2C1748BB00FD47F7 /* PasswordVerificationTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FD84F9452C1746EA00FD47F7 /* PasswordVerification */ = {
+			isa = PBXGroup;
+			children = (
+				FD84F9462C1746EA00FD47F7 /* PasswordView.swift */,
+				FD7A15DE2C23C0C40039B023 /* CongratsView.swift */,
+				FD7A15DC2C23BFF40039B023 /* PasswordVerificationView.swift */,
+				FD84F9562C1748A100FD47F7 /* ValidationController.swift */,
+				FD84F9482C1746EA00FD47F7 /* ContentView.swift */,
+				FD84F94A2C1746EB00FD47F7 /* Assets.xcassets */,
+				FD84F94C2C1746EB00FD47F7 /* Preview Content */,
+			);
+			path = PasswordVerification;
+			sourceTree = "<group>";
+		};
+		FD84F94C2C1746EB00FD47F7 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FD84F94D2C1746EB00FD47F7 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FD84F95D2C1748BB00FD47F7 /* PasswordVerificationTests */ = {
+			isa = PBXGroup;
+			children = (
+				FD84F95E2C1748BB00FD47F7 /* PasswordVerificationTests.swift */,
+			);
+			path = PasswordVerificationTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FD84F9422C1746EA00FD47F7 /* PasswordVerification */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD84F9512C1746EB00FD47F7 /* Build configuration list for PBXNativeTarget "PasswordVerification" */;
+			buildPhases = (
+				FD84F93F2C1746EA00FD47F7 /* Sources */,
+				FD84F9402C1746EA00FD47F7 /* Frameworks */,
+				FD84F9412C1746EA00FD47F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PasswordVerification;
+			productName = PasswordVerification;
+			productReference = FD84F9432C1746EA00FD47F7 /* PasswordVerification.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FD84F95B2C1748BB00FD47F7 /* PasswordVerificationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD84F9622C1748BB00FD47F7 /* Build configuration list for PBXNativeTarget "PasswordVerificationTests" */;
+			buildPhases = (
+				FD84F9582C1748BB00FD47F7 /* Sources */,
+				FD84F9592C1748BB00FD47F7 /* Frameworks */,
+				FD84F95A2C1748BB00FD47F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FD84F9612C1748BB00FD47F7 /* PBXTargetDependency */,
+			);
+			name = PasswordVerificationTests;
+			productName = PasswordVerificationTests;
+			productReference = FD84F95C2C1748BB00FD47F7 /* PasswordVerificationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FD84F93B2C1746EA00FD47F7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					FD84F9422C1746EA00FD47F7 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					FD84F95B2C1748BB00FD47F7 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = FD84F9422C1746EA00FD47F7;
+					};
+				};
+			};
+			buildConfigurationList = FD84F93E2C1746EA00FD47F7 /* Build configuration list for PBXProject "PasswordVerification" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FD84F93A2C1746EA00FD47F7;
+			productRefGroup = FD84F9442C1746EA00FD47F7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FD84F9422C1746EA00FD47F7 /* PasswordVerification */,
+				FD84F95B2C1748BB00FD47F7 /* PasswordVerificationTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FD84F9412C1746EA00FD47F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD84F94E2C1746EB00FD47F7 /* Preview Assets.xcassets in Resources */,
+				FD84F94B2C1746EB00FD47F7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD84F95A2C1748BB00FD47F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FD84F93F2C1746EA00FD47F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD7A15DD2C23BFF40039B023 /* PasswordVerificationView.swift in Sources */,
+				FD84F9572C1748A100FD47F7 /* ValidationController.swift in Sources */,
+				FD7A15DF2C23C0C40039B023 /* CongratsView.swift in Sources */,
+				FD84F9492C1746EA00FD47F7 /* ContentView.swift in Sources */,
+				FD84F9472C1746EA00FD47F7 /* PasswordView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD84F9582C1748BB00FD47F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD84F95F2C1748BB00FD47F7 /* PasswordVerificationTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FD84F9612C1748BB00FD47F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FD84F9422C1746EA00FD47F7 /* PasswordVerification */;
+			targetProxy = FD84F9602C1748BB00FD47F7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FD84F94F2C1746EB00FD47F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FD84F9502C1746EB00FD47F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FD84F9522C1746EB00FD47F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PasswordVerification/Preview Content\"";
+				DEVELOPMENT_TEAM = 85Q729JR8Z;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.stengel.PasswordVerification;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FD84F9532C1746EB00FD47F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PasswordVerification/Preview Content\"";
+				DEVELOPMENT_TEAM = 85Q729JR8Z;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.stengel.PasswordVerification;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FD84F9632C1748BB00FD47F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 85Q729JR8Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.stengel.PasswordVerificationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PasswordVerification.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PasswordVerification";
+			};
+			name = Debug;
+		};
+		FD84F9642C1748BB00FD47F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 85Q729JR8Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.stengel.PasswordVerificationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PasswordVerification.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PasswordVerification";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FD84F93E2C1746EA00FD47F7 /* Build configuration list for PBXProject "PasswordVerification" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD84F94F2C1746EB00FD47F7 /* Debug */,
+				FD84F9502C1746EB00FD47F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD84F9512C1746EB00FD47F7 /* Build configuration list for PBXNativeTarget "PasswordVerification" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD84F9522C1746EB00FD47F7 /* Debug */,
+				FD84F9532C1746EB00FD47F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD84F9622C1748BB00FD47F7 /* Build configuration list for PBXNativeTarget "PasswordVerificationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD84F9632C1748BB00FD47F7 /* Debug */,
+				FD84F9642C1748BB00FD47F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FD84F93B2C1746EA00FD47F7 /* Project object */;
+}
